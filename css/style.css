@@ -1,0 +1,56 @@
+
+
+
+.item{
+    margin: 25px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.item-caption{
+    position: absolute;
+    bottom: 15px;
+    width: 80%;
+    right: 10%;
+    background-color: rgb(204, 180, 175);
+}
+
+
+
+.conatiner_image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(226, 207, 207, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.captipn_conatiner_image{
+   height: 400px;
+   background-image: url(../imgs/a2.jpeg);
+   background-size: 100% 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+
+
+}
+.captipn_conatiner_image i{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#close{
+    position: absolute;
+    z-index: 333;
+    top: 20px;
+    right: 30px;
+}
+
